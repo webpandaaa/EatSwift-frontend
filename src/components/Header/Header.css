@@ -38,5 +38,10 @@
     background-color: white;
     font-size: max(1vw , 13px);
     border-radius: 50px;
+    cursor: pointer;
+    transition: all ease .3s;
 }
 
+.header-contents button:hover{
+    scale: .9;
+}

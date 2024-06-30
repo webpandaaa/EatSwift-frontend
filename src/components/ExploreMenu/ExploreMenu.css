@@ -1,0 +1,34 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500;
+}
+
+.em-text{
+    max-width: 60%;
+    columns: #808080;
+}
+
+.em-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+}
+
+.em-list::-webkit-scrollbar{
+    display: none;
+}
+
+.em-list-item img{
+    width: 7.5vw;
+    min
+}
